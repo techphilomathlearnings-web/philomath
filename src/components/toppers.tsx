@@ -16,7 +16,7 @@ const Toppers = () => {
                             credits2={100}
                         />
                         <TopperCard
-                            link="https://img.daisyui.com/images/profile/demo/distracted1@192.webp"
+                            link="/ishani.jpg"
                             title="Syamantak Sengupta"
                             board="ICSE 2024"
                             credits1={97.4}
@@ -24,7 +24,7 @@ const Toppers = () => {
                             credits2={99}
                         />
                         <TopperCard
-                            link="https://img.daisyui.com/images/profile/demo/distracted2@192.webp"
+                            link="/ishani.jpg"
                             title="Kaustav Rai"
                             board="ICSE 2024"
                             credits1={96.8}
@@ -32,7 +32,7 @@ const Toppers = () => {
                             credits2={96}
                         />
                         <TopperCard
-                            link="https://img.daisyui.com/images/profile/demo/distracted2@192.webp"
+                            link="/ishani.jpg"
                             title="Mainak Chaki"
                             board="ICSE 2025"
                             credits1={96.8}

@@ -5,7 +5,7 @@ const Toppers = () => {
         <div id="results" className="hero bg-base-100 py-20">
             <div className="hero-content text-center">
                 <div className="space-y-12">
-                    <h1 className="text-6xl font-bold">Our Star Achievers</h1>
+                    <h1 className="text-4xl font-bold">Our Star Achievers</h1>
                     <div className="flex gap-12">
                         <TopperCard
                             link="https://img.daisyui.com/images/profile/demo/distracted3@192.webp"

@@ -2,7 +2,7 @@
 
 const Hero = () => {
     return (
-        <div className="hero bg-linear-to-r from-primary from-10% via-[#0B0367] via-50% to-secondary to-90% pt-20 pb-12 text-primary-content">
+        <div className="hero bg-linear-to-r from-primary from-10% via-[#0B0367] via-50% to-secondary to-90% pt-32 pb-12 text-primary-content">
             <div className="hero-content text-center">
                 <div className="max-w-2xl space-y-4">
                     <h1 className="text-3xl font-bold">Quality Computer Education for a Bright Future</h1>

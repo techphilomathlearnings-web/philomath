@@ -6,7 +6,7 @@ const Features = () => {
             <div className="hero-content text-center">
                 <div className="space-y-12">
                     <div className="space-y-6">
-                        <h1 className="text-6xl font-bold">Why choose us?</h1>
+                        <h1 className="text-4xl font-bold">Why choose us?</h1>
                         <p className="text-xl">
                             Our most comprehensive and impactful learning experiences
                         </p>

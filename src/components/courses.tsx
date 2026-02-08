@@ -5,7 +5,7 @@ const Courses = () => {
         <div id="courses" className="hero bg-base-200 py-12">
             <div className="hero-content text-center">
                 <div className="space-y-8">
-                    <h1 className="text-6xl font-bold text-secondary">Featured Courses</h1>
+                    <h1 className="text-4xl font-bold text-secondary">Featured Courses</h1>
                     <div className="flex gap-12">
                         <CourseCard
                             title="ICSE Computer Applications"

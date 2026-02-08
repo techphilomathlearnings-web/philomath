@@ -6,7 +6,7 @@ const Toppers = () => {
             <div className="hero-content text-center">
                 <div className="space-y-12">
                     <h1 className="text-4xl font-bold">Our Star Achievers</h1>
-                    <div className="flex gap-12">
+                    <div className="flex flex-col md:flex-row md:px-12 gap-4 md:gap-12 w-fit md:w-full mx-auto">
                         <TopperCard
                             link="https://img.daisyui.com/images/profile/demo/distracted3@192.webp"
                             title="Rahul Sharma"

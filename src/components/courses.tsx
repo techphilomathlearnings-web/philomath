@@ -6,7 +6,7 @@ const Courses = () => {
             <div className="hero-content text-center">
                 <div className="space-y-8">
                     <h1 className="text-4xl font-bold text-secondary">Featured Courses</h1>
-                    <div className="flex gap-12">
+                    <div className="flex gap-4 md:gap-12 flex-wrap justify-center lg:flex-nowrap">
                         <CourseCard
                             title="ICSE Computer Applications"
                             target="For Classes VIII – X"

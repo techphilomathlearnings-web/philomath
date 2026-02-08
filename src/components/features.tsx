@@ -11,7 +11,7 @@ const Features = () => {
                             Our most comprehensive and impactful learning experiences
                         </p>
                     </div>
-                    <div className="flex gap-12">
+                    <div className="flex gap-4 md:gap-12 flex-wrap justify-center lg:flex-nowrap">
                         <FeatureCard
                             title="Personal Attention"
                             description="Small batch sizes to focus on every student individually."

@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const Footer = () => {
     return (
         <div id="contact" className="flex flex-col items-center gap-4 bg-linear-to-r from-primary from-10% via-[#0B0367] via-50% to-secondary to-90% w-full text-primary-content py-12">

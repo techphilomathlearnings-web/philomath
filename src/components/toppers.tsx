@@ -6,30 +6,38 @@ const Toppers = () => {
             <div className="hero-content text-center">
                 <div className="space-y-12">
                     <h1 className="text-4xl font-bold">Our Star Achievers</h1>
-                    <div className="flex flex-col md:flex-row md:px-12 gap-4 md:gap-12 w-fit md:w-full mx-auto">
+                    <div className="flex flex-col md:flex-row md:px-12 gap-4 md:gap-12 lg:gap-32 w-fit md:w-full mx-auto md:flex-wrap">
                         <TopperCard
-                            link="https://img.daisyui.com/images/profile/demo/distracted3@192.webp"
-                            title="Rahul Sharma"
-                            board="ICSE"
-                            credits1={98.6}
+                            link="/ishani.jpg"
+                            title="Ishani Mandal"
+                            board="ICSE 2024"
+                            credits1={98.4}
                             subject="Computer Applications"
                             credits2={100}
                         />
                         <TopperCard
                             link="https://img.daisyui.com/images/profile/demo/distracted1@192.webp"
-                            title="Ananya Das"
-                            board="ISC"
+                            title="Syamantak Sengupta"
+                            board="ICSE 2024"
                             credits1={97.4}
-                            subject="Computer Science"
+                            subject="Computer Applications"
                             credits2={99}
                         />
                         <TopperCard
                             link="https://img.daisyui.com/images/profile/demo/distracted2@192.webp"
-                            title="Amit Roy"
-                            board="CBS"
+                            title="Kaustav Rai"
+                            board="ICSE 2024"
                             credits1={96.8}
                             subject="Computer Science"
-                            credits2={98}
+                            credits2={96}
+                        />
+                        <TopperCard
+                            link="https://img.daisyui.com/images/profile/demo/distracted2@192.webp"
+                            title="Mainak Chaki"
+                            board="ICSE 2025"
+                            credits1={96.8}
+                            subject="Computer Science"
+                            credits2={99}
                         />
                     </div>
                 </div>

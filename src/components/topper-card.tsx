@@ -5,15 +5,16 @@ const TopperCard = ({ link, title, board, credits1, subject, credits2 }: topperC
     return (
         <div className="hover-3d shadow-md rounded-xl">
             {/* content */}
-            <figure className="max-w-60">
+            <figure className="max-w-68">
                 <div className="card bg-base-100 h-full">
-                    <figure>
-                        <Image src={link} alt="topper_pic" width={300} height={200} />
+                    <figure className="relative w-68 h-58 flex justify-center items-center mt-2">
+                        <Image src={link} alt="topper_pic" layout="fill" objectFit="contain" className="rounded-xl"/>
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">{title}</h2>
+                        <h2 className="card-title w-fit mx-auto">{title}</h2>
+                        <h2 className="card-title w-fit mx-auto">{board}</h2>
                         <div className="flex">
-                            <p className="text-start">{board}:</p>
+                            <p className="text-start">Percentage:</p>
                             <p className="text-end">{credits1}%</p>
                         </div>
                         <div className="flex items-end">

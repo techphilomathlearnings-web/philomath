@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
                     <p className="pb-2">
                         Expert guidance for ICSE, ISC and CBSE Computer Science students
                     </p>
-                    <button className="btn btn-accent btn-lg bg-linear-to-r from-accent to-[#FF6300] border-none text-[#0B0367] font-bold">Explore Courses</button>
+                    <Link href="#courses" className="btn btn-accent btn-lg bg-linear-to-r from-accent to-[#FF6300] border-none text-[#0B0367] font-bold hover:scale-105 transition-all">Explore Courses</Link>
                 </div>
             </div>
         </div>

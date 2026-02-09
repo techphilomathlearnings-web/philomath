@@ -17,7 +17,7 @@ const Nav = () => {
   return (
     <div
       id="home"
-      className="fixed top-0 z-10 flex w-full h-fit pl-4 md:pl-8 md:pr-4 lg:px-12 py-2 justify-between items-center bg-base-100"
+      className="fixed top-0 z-10 flex w-full h-fit pl-4 md:pl-8 md:pr-4 lg:px-12 py-2 justify-between items-center bg-base-100 dark:bg-linear-to-r dark:from-secondary dark:from-10% dark:via-[#0B0367] dark:via-50% dark:to-primary dark:to-90%"
     >
       <div className="flex items-center">
         <Image

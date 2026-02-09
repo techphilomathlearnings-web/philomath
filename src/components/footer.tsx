@@ -9,13 +9,16 @@ const Footer = () => {
     >
       <h1 className="text-4xl font-bold">Contact Us</h1>
       <div className="flex flex-col items-center gap-1">
-        <Link href={`tel:+917439303013`} className="flex gap-2 items-end">
+        <Link
+          href={`tel:+917439303013`}
+          className="flex gap-2 items-end hover:text-accent transition-all"
+        >
           <Phone className="size-4 md:size-5 shrink-0" />
           <p className="text-sm md:text-base">+91 74393 03013</p>
         </Link>
         <Link
           href={`mailto:philomath.learnings@gmail.com`}
-          className="flex gap-2 items-end"
+          className="flex gap-2 items-end hover:text-accent transition-all"
         >
           <Mail className="size-4 md:size-5 shrink-0" />
           <p className="text-sm md:text-base">philomath.learnings@gmail.com</p>

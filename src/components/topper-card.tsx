@@ -10,7 +10,7 @@ const TopperCard = ({
   credits2,
 }: topperCard) => {
   return (
-    <div className="card card-border bg-base-100 shadow-md hover:shadow-lg hover:-translate-y-2 hover:scale-101 transition-all">
+    <div className="card card-border bg-base-100 shadow-md hover:shadow-lg hover:-translate-y-2 hover:scale-101 transition-all dark:shadow-accent">
       <figure className="relative w-68 h-58 flex justify-center items-center mt-2">
         <Image
           src={link}

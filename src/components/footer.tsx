@@ -1,3 +1,6 @@
+import { Mail, Phone } from "lucide-react";
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div
@@ -6,8 +9,17 @@ const Footer = () => {
     >
       <h1 className="text-4xl font-bold">Contact Us</h1>
       <div className="flex flex-col items-center gap-1">
-        <p className="">Phone: +91-7439303013</p>
-        <p className="">Email: philomath.learnings@gmail.com</p>
+        <Link href={`tel:+917439303013`} className="flex gap-2 items-end">
+          <Phone className="size-4 md:size-5 shrink-0" />
+          <p className="text-sm md:text-base">+91 74393 03013</p>
+        </Link>
+        <Link
+          href={`mailto:philomath.learnings@gmail.com`}
+          className="flex gap-2 items-end"
+        >
+          <Mail className="size-4 md:size-5 shrink-0" />
+          <p className="text-sm md:text-base">philomath.learnings@gmail.com</p>
+        </Link>
         <p className="">Address: Baguiati, Kolkata, India</p>
       </div>
     </div>

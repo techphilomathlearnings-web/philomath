@@ -1,8 +1,19 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { TextAlignJustify } from "lucide-react";
 
 const Nav = () => {
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    el.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div
       id="home"
@@ -18,30 +29,30 @@ const Nav = () => {
         />
       </div>
       <div className="hidden md:flex items-center md:gap-2 lg:gap-8">
-        <Link
-          href="/"
-          className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+        <button
+          onClick={() => scrollTo("hero")}
+          className="px-4 py-2 font-bold rounded-full transition-all hover:transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367] hover:cursor-pointer"
         >
           Home
-        </Link>
-        <Link
-          href="#courses"
-          className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+        </button>
+        <button
+          onClick={() => scrollTo("courses")}
+          className="px-4 py-2 font-bold rounded-full transition-all hover:transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367] hover:cursor-pointer"
         >
           Courses
-        </Link>
-        <Link
-          href="#results"
-          className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+        </button>
+        <button
+          onClick={() => scrollTo("results")}
+          className="px-4 py-2 font-bold rounded-full transition-all hover:transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367] hover:cursor-pointer"
         >
           Results
-        </Link>
-        <Link
-          href="#contact"
-          className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+        </button>
+        <button
+          onClick={() => scrollTo("contact")}
+          className="px-4 py-2 font-bold rounded-full transition-all hover:transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367] hover:cursor-pointer"
         >
           Contact
-        </Link>
+        </button>
       </div>
       <div className="dropdown dropdown-end md:hidden">
         <div
@@ -55,30 +66,30 @@ const Nav = () => {
           tabIndex={-1}
           className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 mx-2 shadow-sm"
         >
-          <Link
-            href="/"
-            className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+          <button
+            onClick={() => scrollTo("hero")}
+            className="px-4 py-2 font-bold rounded-full transition-all active:transition-all active:bg-linear-to-r active:from-accent active:to-[#FF6300] active:text-[#0B0367] active:cursor-pointer"
           >
             Home
-          </Link>
-          <Link
-            href="#courses"
-            className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+          </button>
+          <button
+            onClick={() => scrollTo("courses")}
+            className="px-4 py-2 font-bold rounded-full transition-all active:transition-all active:bg-linear-to-r active:from-accent active:to-[#FF6300] active:text-[#0B0367] active:cursor-pointer"
           >
             Courses
-          </Link>
-          <Link
-            href="#results"
-            className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+          </button>
+          <button
+            onClick={() => scrollTo("results")}
+            className="px-4 py-2 font-bold rounded-full transition-all active:transition-all active:bg-linear-to-r active:from-accent active:to-[#FF6300] active:text-[#0B0367] active:cursor-pointer"
           >
             Results
-          </Link>
-          <Link
-            href="#contact"
-            className="px-4 py-2 font-bold rounded-full hover:rounded-full transition-all hover:bg-linear-to-r hover:from-accent hover:to-[#FF6300] hover:text-[#0B0367]"
+          </button>
+          <button
+            onClick={() => scrollTo("contact")}
+            className="px-4 py-2 font-bold rounded-full transition-all active:transition-all active:bg-linear-to-r active:from-accent active:to-[#FF6300] active:text-[#0B0367] active:cursor-pointer"
           >
             Contact
-          </Link>
+          </button>
         </ul>
       </div>
     </div>

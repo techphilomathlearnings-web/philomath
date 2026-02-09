@@ -16,7 +16,7 @@ const Toppers = () => {
                             credits2={100}
                         />
                         <TopperCard
-                            link="/ishani.jpg"
+                            link="/syamantak.jpg"
                             title="Syamantak Sengupta"
                             board="ICSE 2024"
                             credits1={97.4}

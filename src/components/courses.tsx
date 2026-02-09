@@ -12,17 +12,17 @@ const Courses = () => {
             <CourseCard
               title="ICSE Computer Applications"
               target="For Classes VIII – X"
-              description="Complete programming concepts, Java, logic building and board exam preparation."
+              description="Fundamentals of Programming, with a strong focus on logic building and Java basics."
             />
             <CourseCard
               title="ISC Computer Science"
               target="For Classes XI & XII"
-              description="Java programming, data structures, practicals and board oriented training."
+              description="Concept-based learning, with equal importance to Digital Electronics, Java and Data Structures."
             />
             <CourseCard
               title="CBSE Computer Science"
               target="For Classes XI & XII"
-              description="Python programming, SQL, practical projects and exam focused teaching."
+              description="Structured learning path, curated for the CBSE Examinations, with a strong focus on Python."
             />
           </div>
         </div>

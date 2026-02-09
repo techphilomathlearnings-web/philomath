@@ -16,7 +16,7 @@ const Toppers = () => {
               credits2={100}
             />
             <TopperCard
-              link="/syamantak.png"
+              link="/syamantak.jpg"
               title="Syamantak Sengupta"
               board="ICSE 2024"
               credits1={93}
@@ -24,11 +24,11 @@ const Toppers = () => {
               credits2={99}
             />
             <TopperCard
-              link="/ishani.jpg"
+              link="/kaustav.jpg"
               title="Kaustav Rai"
               board="ICSE 2024"
-              credits1={96.8}
-              subject="Computer Science"
+              credits1={89.8}
+              subject="Computer Applications"
               credits2={96}
             />
             <TopperCard
@@ -36,7 +36,7 @@ const Toppers = () => {
               title="Mainak Chaki"
               board="ICSE 2025"
               credits1={94}
-              subject="Computer Science"
+              subject="Computer Applications"
               credits2={99}
             />
           </div>

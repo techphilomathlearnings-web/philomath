@@ -13,16 +13,16 @@ const Features = () => {
           </div>
           <div className="flex gap-4 md:gap-12 flex-wrap justify-center lg:flex-nowrap">
             <FeatureCard
-              title="Personal Attention"
-              description="Small batch sizes to focus on every student individually."
+              title="Concept-Based Learning"
+              description="We focus on concepts that build strong logical foundations."
             />
             <FeatureCard
-              title="Practical Learning"
-              description="Hands-on coding practice with real exam oriented programs."
+              title="Printed Study Materials"
+              description="Chapterwise study notes are provided for easy understanding."
             />
             <FeatureCard
-              title="Regular Tests"
-              description="Frequent mock tests and feedback for continuous improvement."
+              title="Consistent Practice"
+              description="Regular homeworks are provided to keep students on track."
             />
           </div>
         </div>

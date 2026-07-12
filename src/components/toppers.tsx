@@ -55,6 +55,14 @@ const Toppers = () => {
               subject="Computer Applications"
               credits2={95}
             />
+            <TopperCard
+              link="/Eric.png"
+              title="Eric Saha"
+              board="CBSE Class 12 2026"
+              credits1={94.8}
+              subject="Computer Applications"
+              credits2={95}
+            />
           </div>
         </div>
       </div>

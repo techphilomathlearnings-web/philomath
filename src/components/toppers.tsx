@@ -39,6 +39,22 @@ const Toppers = () => {
               subject="Computer Applications"
               credits2={99}
             />
+            <TopperCard
+              link="/Swapnoneel.png"
+              title="Swapnoneel Saha"
+              board="ICSE 2026"
+              credits1={92.4}
+              subject="Computer Applications"
+              credits2={95}
+            />
+            <TopperCard
+              link="/Souvik.png"
+              title="Souvik Nandy"
+              board="ICSE 2026"
+              credits1={89.2}
+              subject="Computer Applications"
+              credits2={95}
+            />
           </div>
         </div>
       </div>

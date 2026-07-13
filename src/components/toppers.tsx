@@ -59,7 +59,7 @@ const Toppers = () => {
               link="/Eric.png"
               title="Eric Saha"
               board="CBSE Class 12 2026"
-              credits1={94.8}
+              credits1={88.4}
               subject="Computer Applications"
               credits2={95}
             />
